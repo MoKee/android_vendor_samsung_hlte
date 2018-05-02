@@ -1,5 +1,6 @@
 # Copyright (C) 2014-2016 The CyanogenMod Project
 # Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2018 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,3 +20,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte/proprietary/vendor/lib/libsec-ril.gsm.so:system/vendor/lib/libsec-ril.gsm.so
 PRODUCT_COPY_FILES += \
     vendor/samsung/hlte/proprietary/vendor/lib/libsec-ril.spr.so:system/vendor/lib/libsec-ril.spr.so
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hlte/proprietary/vendor/lib/libsec-ril.h3g.so:system/vendor/lib/libsec-ril.h3g.so
